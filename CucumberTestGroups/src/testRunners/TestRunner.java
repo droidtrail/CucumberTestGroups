@@ -13,7 +13,7 @@ import cucumber.api.junit.Cucumber;
 				 snippets   = SnippetType.CAMELCASE,
 				 dryRun     = false,
 				 strict     = false,
-				 tags       = "@TesteFuncional" 
+				 tags       = {"@FunctionalTest","~@RegressionTest","~@SmokeTest","~@End2End"} 
 				)
 
 public class TestRunner {
